@@ -22,7 +22,7 @@ class MyLocation {
   late double lat;
   late double long;
 
-  Future<void> determinePosition(context) async {
+  Future<void> determinePosition(data, context) async {
     bool serviceEnabled;
     LocationPermission permission;
 
@@ -33,7 +33,7 @@ class MyLocation {
       permission = await Geolocator.requestPermission();
       Navigator.pop(context); // pop current page
       Navigator.push(context, MaterialPageRoute(builder: (context) {
-        return Loading();
+        return Loading(data);
       }));
     }
 

@@ -35,7 +35,7 @@ class _MainAppState extends State<MainApp> {
               colorScheme: darkDynamic,
               brightness: Brightness.dark,
               useMaterial3: true),
-          home: Loading(),
+          home: Loading(lightDynamic!),
           debugShowCheckedModeBanner: false,
         );
       },

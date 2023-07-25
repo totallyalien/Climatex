@@ -137,29 +137,31 @@ class _location extends State<location> {
       bottomNavigationBar: Container(
         margin: EdgeInsets.all(20),
         decoration: BoxDecoration(
-            // color: Colors.white,
-            borderRadius: BorderRadius.all(Radius.circular(50))),
-        child: GNav(
-          // backgroundColor: Color.fromARGB(27, 61, 129, 138),
-          iconSize: 20.0,
-          // activeColor: Colors.white,
-          // tabBackgroundColor: Color,
-          tabBorderRadius: 50,
-          tabMargin: EdgeInsets.all(5),
-          duration: Duration(milliseconds: 1),
-          style: GnavStyle.google,
-          // mainAxisAlignment: MainAxisAlignment.center,
-          tabs: [
-            GButton(icon: Icons.home),
-            GButton(icon: Icons.timeline),
-            GButton(icon: Icons.search),
-          ],
-          selectedIndex: _select,
-          onTabChange: (value) {
-            setState(() {
-              _select = value;
-            });
-          },
+            color: data[2].primary,
+            borderRadius: BorderRadius.all(Radius.circular(70))),
+        child: Padding(
+          padding: const EdgeInsets.all(0),
+          child: GNav(
+            iconSize: 20.0,
+            activeColor: Colors.white,
+            tabBackgroundColor: data[2].primaryContainer,
+            tabBorderRadius: 50,
+            tabMargin: EdgeInsets.all(5),
+            duration: Duration(milliseconds: 1),
+            style: GnavStyle.google,
+            // mainAxisAlignment: MainAxisAlignment.center,
+            tabs: [
+              GButton(icon: Icons.home),
+              GButton(icon: Icons.timeline),
+              GButton(icon: Icons.search),
+            ],
+            selectedIndex: _select,
+            onTabChange: (value) {
+              setState(() {
+                _select = value;
+              });
+            },
+          ),
         ),
       ),
       body: [
