@@ -28,9 +28,11 @@ A beautiful and dynamic weather app built using Flutter that fetches real-time w
 - **User-friendly Interface**: Create an intuitive and easy-to-use interface for a positive user experience.
 
 ## Screenshots
-![Screenshot_20230601_190737](https://github.com/totallyalien/Climatex/assets/97169836/a119f5a7-4254-4a8f-93f7-1df3f8882345)
-![Screenshot_20230601_190658](https://github.com/totallyalien/Climatex/assets/97169836/efdb78b8-2d39-4c09-b0ca-25703f87b316)
-![Screenshot_20230601_190837](https://github.com/totallyalien/Climatex/assets/97169836/f3d6f8ad-18e1-4138-a61a-abd01d68dddb)
+<p float="left">
+  <img src="https://github.com/totallyalien/Climatex/assets/97169836/a119f5a7-4254-4a8f-93f7-1df3f8882345" width="33%" />
+  <img src="https://github.com/totallyalien/Climatex/assets/97169836/efdb78b8-2d39-4c09-b0ca-25703f87b316" width="33%" />
+  <img src="https://github.com/totallyalien/Climatex/assets/97169836/f3d6f8ad-18e1-4138-a61a-abd01d68dddb" width="33%" />
+</p>
 ## Getting Started
 
 To run this app locally on your machine, follow these steps:
